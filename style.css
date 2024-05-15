@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: wheat;
+}
+
+.container{
+    background-color: white;
+    width: 25vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+
+    border-radius: 1rem;
+    padding: 2rem;
+    text-align: left;
+}
+
+form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.amount{
+    #textField{
+        margin-top: 5px;
+        font-size: 1.25rem;
+        width: 100%;
+        padding: 0.5rem;
+        border: 1px solid rgb(169, 169, 169);
+        border-radius: 0.5rem;
+    }
+}
+
+.dropdown{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.select-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+
+    margin-top: 5px;
+    padding: 1px 7px;
+    select{
+        border: none;
+    }
+}
+
+img{
+    max-width: 2rem;
+}
+
+.msg{
+    font-size: 1.25rem;
+}
+
+#getRate{
+    height: 2.5rem;
+    border-radius: 1rem;
+    border: none;
+    font-size: 1rem;
+    background-color: blueviolet;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
+
+#getRate:hover{
+    background-color: rgb(88, 9, 162);
+    transition: all 0.1s ease-in;
+}
